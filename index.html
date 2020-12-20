@@ -3,28 +3,233 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content=": портфолио Александры Степановой на Яндекс.Практикуме">
+  <meta name="keywords" content="html, css">
+  <meta name="author" content="Александра">
+  <link rel="stylesheet" href="file:///Users/alexandrachernisheva/Desktop/projects/project_1/how-to-learn/styles/normalize.css">
+  <link rel="stylesheet" href="file:///Users/alexandrachernisheva/Desktop/projects/project_1/how-to-learn/styles/style.css">
   <title>Научиться учиться</title>
 </head>
+
 <body>
   <div class="page">
+
+    <!-- Header -->
     <header class="header">
 
+      <img src="images/logo_place_header.svg" alt class="logo logo_place_header>" >
+      <h1 class="header__title">  Научиться учиться</h1>
+      <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?<a href="#"  class="header__link"> Узнать &#8594 </a></p>
+      
+      <img src="images/header-image.png" alt="" class="header__main-illustrarion" >
+
+      <div class="header__square-pic"></div> 
+
     </header>
+
+    <!-- Main -->
     <main class="content">
+
+      <!-- Section description -->
       <section class="description">
+          <div class="two-columns">
+            <h4 class="two-columns__brief columns_paragraph-size">Главные проблемы в обучении</h4>
+
+            <div class="two-colomns__main-text">
+              <p class="two-columns__paragraph subtitle_size">Ни в школе, ни в институте нас не учат тому, как правильно изучать материал. Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест, но часто в итоге это не дает нам реального знания. Зубрежка быстро выветривается и не приносит пользы.</p>
+              <p class="two-columns__paragraph subtitle_size two-columns__paragraph_main"><span class="two-columns__span-accent">Вывод:</span> учиться тоже нужно уметь, но почему-то этому мало где учат. Что с этим делать?</p>
+              <p class="two-columns__paragraph subtitle_size">Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.</p>
+            </div>
+
+          </div>
       </section>
 
+      <!-- Section digits -->
       <section class="digits">
-      </section>
+        <h2 class="digits_section-title title_h2_size">Цифры и факты</h2>
+        <p class="digits_section-subtitle subtitle_size">Про учёбу и мозг</p>
+        
+        <div class="digits_table">
 
-      <section class="feynman">
-      </section>
+          <div class="digits_table__cell">
+            <tr class="digits_table__cell">
+             <th><h3 class="title-colomn_size">86 миллиардов</h3></th>
+             <th><p class="columns_paragraph-size digits__text">Число нейронов в мозге человека</p></th>
+            </tr>
+          </div> 
 
+          <div class="digits_table__cell">
+            <tr class="digits_table__cell">
+              <th><h3 class="title-colomn_size">2.1 миллиарда</h3></th>
+              <th><p class="columns_paragraph-size digits__text">Число нуждающихся в повышении квалификации</p></th>
+              <th><p class="columns_paragraph-size digits__text">Всемирный Банк, 2017</p></th> 
+            </tr>
+          </div>
+          
+          <div class="digits_table__cell">
+            <tr class="digits_table__cell"> 
+              <th><h3 class="title-colomn_size">1000 терабайт</h3></th>
+              <th><p class="columns_paragraph-size digits__text">Объём памяти человека</p></th>
+            </tr>
+          </div>
+          
+          <div class="digits_table__cell">
+            <tr class="digits_table__cell">
+              <th><h3 class="title-colomn_size">500 триллионов</h3></th>
+              <th><p class="columns_paragraph-size digits__text">Число ответственных за обучение нервных синапсов у взрослого человека</p></th>
+            </tr>
+          </div>
+          
+          <div class="digits_table__cell">
+            <tr class="digits_table__cell">
+              <th><h3 class="title-colomn_size">420 миллионов</h3></th>
+              <th><p class="columns_paragraph-size digits__text">Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройства</p></th>
+              <th><p class="columns_paragraph-size digits__text">Всемирный Банк, 2017</p></th>
+            </tr>
+          </div>
+          
+          <div class="digits_table__cell">
+            <tr class="digits_table__cell">
+              <th><h3 class="title-colomn_size">17–20 лет</h3></th>
+              <th><p class="columns_paragraph-size digits__text">Пик обучаемости</p></th>
+            </tr>
+          </div>
+          
+          <div class="digits_table__cell">
+            <tr class="digits_table__cell">
+              <th><h3 class="title-colomn_size">1885 год</h3></th>
+              <th><p class="columns_paragraph-size digits__text">Открытие кривой забывания</p></th>
+            </tr>
+          </div>
+          
+          <div class="digits_table__cell">
+            <tr class="digits_table__cell">
+              <th><h3 class="title-colomn_size">1889 год</h3></th>
+              <th><p class="columns_paragraph-size digits__text">Открытие условного рефлекса</p></th>
+            </tr>
+          </div>
+          
+        </div>
+
+      </section>
+      
+      <!-- Section feynman -->
+      <section class="feynman"> 
+
+        <div class="feynman-block">
+          <h1 class="feynman__title">Метод Фейнмана</h1>
+          <p class="feynman__subtitle">Выучить и не забыть.</p>
+          <a class="feynman__link" href="#">Подробнее &#8594</a>
+          <img src="images/feynman.png" alt class="feynman__background-pic">
+        </div>
+
+      </section>
+      
+      <!-- Section kaufman -->
       <section class="kaufman">
+        <h2 class="section-title_theme_dark title_h2_size">Принципы обучения</h2>
+        <p class="section-subtitle_theme_dark subtitle_size">от Джоша Кауфмана</p>
+        <img src="images/kaufman-triangle.svg" alt="" class="kaufman__triangle">
+            
+          <div class="table_theme_dark">
+    
+            <div class="table__cell_theme_dark">
+              <tr>
+                <th><h3 class="table__heading_theme_dark title-colomn_size">1</h3></th>
+                <th><p class="columns_paragraph-size table__text_theme_dark">Выберите привлекательный проект.</p></th>
+              </tr>
+            </div>
+  
+            <div class="table__cell_theme_dark">
+              <tr>
+                <th><h3 class="table__heading_theme_dark title-colomn_size">2</h3></th>
+                <th><p class="columns_paragraph-size table__text_theme_dark">Сосредоточьтесь на каком-то одном навыке.</p></th>
+              </tr>
+            </div>
+  
+            <div class="table__cell_theme_dark">
+              <tr>
+                <th><h3 class="table__heading_theme_dark title-colomn_size">3</h3></th>
+                <th><p class="columns_paragraph-size table__text_theme_dark">Определите целевой уровень мастерства.</p></th>
+              </tr>
+            </div>
+    
+            <div class="table__cell_theme_dark">
+              <tr class="table__cell_theme_dark">
+                <th><h3 class="table__heading_theme_dark title-colomn_size">4</h3></th>
+                <th><p class="columns_paragraph-size table__text_theme_dark">Разбейте навык на элементы.</p></th>
+              </tr>
+            </div>
+    
+            <div class="table__cell_theme_dark">
+              <tr class="table__cell_theme_dark">
+                <th><h3 class="table__heading_theme_dark title-colomn_size">5</h3></th>
+                <th><p class="columns_paragraph-size table__text_theme_dark">Приготовьте всё необходимое для занятий.</p></th>
+              </tr>
+            </div>
+    
+            <div class="table__cell_theme_dark">
+              <tr class="table__cell_theme_dark">
+                <th><h3 class="table__heading_theme_dark title-colomn_size">6</h3></th>
+                <th><p class="columns_paragraph-size table__text_theme_dark">Устраните препятствия для занятий.</p>
+              </th>    
+            </div>
+            
+            <div class="table__cell_theme_dark">
+              <tr class="table__cell_theme_dark">
+                <th><h3 class="table__heading_theme_dark title-colomn_size">7</h3></th>
+                <th><p class="columns_paragraph-size table__text_theme_dark">Выделите специальное время для занятий.</p></th>
+              </tr>
+            </div>
+    
+            <div class="table__cell_theme_dark">
+              <tr class="table__cell_theme_dark">
+                <th><h3 class="table__heading_theme_dark title-colomn_size">8</h3></th>
+                <th><p class="columns_paragraph-size table__text_theme_dark">Создайте быстрые петли обратной связи.</p></th>
+              </tr>
+            </div>
+    
+            <div class="table__cell_theme_dark table_size">
+              <tr class="table__cell_theme_dark">
+                <th><h3 class="table__heading_theme_dark title-colomn_size">9</h3></th>
+                <th><p class="columns_paragraph-size table__text_theme_dark table__text_theme_dark_size">Занимайтесь по расписанию,короткими интенсивными интервалами.</p></th>
+              </tr>
+            </div>
+    
+            <div class="table__cell_theme_dark">
+              <tr class="table__cell_theme_dark">
+                <th><h3 class="table__heading_theme_dark title-colomn_size">10</h3></th>
+                <th><p class="columns_paragraph-size table__text_theme_dark">Уделяйте внимание количеству и скорости.</p></th>
+              </tr>
+            </div>
+
+          </div>
       </section>
     </main>
-    <footer class="footer">
 
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer__columns">
+        <ul class="footer__column_content_coperight">
+          <li><img src="images/logo_place_footer.svg" alt="" class="logo logo_place_footer"></li>
+          <li class="footer__author">&copy 2020 Александра Степанова</li>
+          </ul>
+
+        <div class="footer__column_content_menu">
+          <ul class="footer__column_content_info">
+            <li class="footer__column-heading">О Практикуме</li>
+            <li><a href="https://praktikum.yandex.ru" class="footer__column-links footer__column-link">Главная</a></li>
+            <li><a href="" class="footer__column-links footer__column-link">Концепция</a></li>
+            <li><a href="" class="footer__column-links footer__column-link">Наставники</a></li>
+          </ul>
+          <ul class="footer__column_content_social">
+            <li class="footer__column-heading">Соцсети<li>
+            <li><a href="https://www.facebook.com/yandex.praktikum/" class="footer__column-link"><img src="images/facebook_color_white.svg" alt="" class="footer__social-icon">Facebook</a></li>
+            <li><a href="https://vk.com/yandex.praktikum" class="footer__column-link"><img src="images/vk_color_white.svg" alt="" class="footer__social-icon">Вконтакте</a></li>
+            <li><a href="https://www.instagram.com/yndx.praktikum/" class="footer__column-link"><img src="images/instagram_color_white.svg" alt="" class="footer__social-icon">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
     </footer>
   </div>
 </body>
