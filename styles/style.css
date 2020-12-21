@@ -46,7 +46,6 @@ a {
 
 .header__subtitle {
   position: absolute;
-  width: 350px;
   line-height: 32px;
   font-size: 18px;
   width: 390px;
@@ -141,7 +140,6 @@ a {
   margin-right: auto;
   margin-top: 100px;
   text-align: center;
-  text-align: center;
   width: 660px;
   padding-bottom: 20px;
 }
@@ -185,7 +183,6 @@ a {
 
 .digits__text {
   margin-top: 20px;
-  margin-bottom: none;
   text-align: left;
   padding-bottom: none;
   margin-bottom: 0;
@@ -334,22 +331,23 @@ a {
  padding: auto;
  margin: 0;
  overflow: hidden;
+ min-height: 350px;
 }
 
 .footer__columns {
   width: 90%;
-  height: 350px;
+  height: 250px;
   display: flex;
   margin-left: 5%;
   margin-right: 5%;
-  margin-bottom: 40px;
   margin-top: 60px;
+  margin-bottom: 40px;
 }
 
 .footer__column_content_coperight {
   flex-basis: 711px; 
   position: relative;
-}
+} 
 
 li {
   list-style-type: none;
@@ -369,8 +367,8 @@ li {
  font-size: 18px;
  color: rgba(249, 243, 243, 0.817);
  bottom: 18px;
- left: 0;
  position: absolute;
+ left: 0;
 }
 
 .footer__column_content_menu {
@@ -383,7 +381,6 @@ li {
 
 .footer__column_content_info {
   top: 0;
-  min-height: 350px;
   width: auto;
 }
 
@@ -391,7 +388,7 @@ li {
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
-  color: rgba(249, 243, 243, 0.817);;
+  color: rgba(249, 243, 243, 0.817);
   margin-bottom: 20px;
   margin-right: 40px;
 }
