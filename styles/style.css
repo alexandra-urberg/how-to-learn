@@ -1,7 +1,11 @@
 .page {
   min-width: 1100px;
+  /* мы ещё не умеем делать мобильную версию сайта, */
+  /* поэтому выше установлена минимальная ширина страницы */
   max-width: 1600px;
+  /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
+  /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
@@ -68,6 +72,8 @@ a {
   right: 0;
 }
 
+/** Description section **/
+
 .description {
   margin: 0;
   width: auto;
@@ -119,6 +125,8 @@ a {
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
+/** Digits section **/
 
 .digits {
   display: block;
@@ -183,6 +191,8 @@ a {
   margin-bottom: 0;
 }
 
+/** Feyman section **/
+
 .feynman {
   height: 890;
   padding-top: 100px;
@@ -240,6 +250,8 @@ a {
   left: 0;
   bottom: 0;
 }
+
+/** Kayfman section**/
 
 .kaufman {
   background-color: rgb(16, 15, 15);
@@ -314,6 +326,8 @@ a {
   padding-bottom: none;
   margin-bottom: 0;
 }
+
+/** Footer section **/
 
 .footer {
  background-color: rgb(16, 15, 15);
