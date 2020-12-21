@@ -318,7 +318,6 @@ a {
 
 .table__text_theme_dark {
   margin-top: 20px;
-  margin-bottom: none;
   text-align: left;
   padding-bottom: none;
   margin-bottom: 0;
@@ -347,7 +346,7 @@ a {
 .footer__column_content_coperight {
   flex-basis: 711px; 
   position: relative;
-} 
+}
 
 li {
   list-style-type: none;
