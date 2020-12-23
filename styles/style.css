@@ -10,7 +10,7 @@
 }
 
 
-/** ОГРОМНОЕ СПАСИБО ЗА ЦЕННОЕ РЕВЬЮ! СРАЗУ ВСЕ ОКОНЧАТЕЛЬНО ПОНЯЛА!!**/
+/** ОГРОМНОЕ СПАСИБО ЗА ЦЕННОЕ РЕВЬЮ! Сразу все стало на свои места в голове!!!**/
 
 .header {
   height: 100vh;
@@ -30,7 +30,6 @@
   height: 32px;
   left: 64px;
   top: 30px;
-  z-index: 4;
 }
 
 .header__title {
@@ -38,6 +37,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  position: relative;
   margin-left: 64px;
   width: 703px;
   height: 500px;
@@ -238,7 +238,7 @@
 .feynman__link {
  position: absolute;
  right: 48px;
- top: 345px;
+ top: 50%;
  line-height: 51px;
  font-size: 36px;
  font-weight: normal;
@@ -295,7 +295,6 @@
 
 .kaufman__triangle {
   background-image: url("../images/kaufman-triangle.svg");
-  
   background-size: 877px 877px;
   position: absolute;
   height: 877px;
@@ -355,7 +354,6 @@
   padding-top: 0;
   margin-top: 0;
   width: 90%;
-  height: 250px;
   margin-left: 5%;
   margin-right: 5%;
   margin-top: 60px;
@@ -418,9 +416,14 @@
   color: white;
 }
 
+.footer__column-link:first-child {
+margin-top: 20px;
+}
+
 .footer__column-link:last-child {
   margin-bottom: 16px;
 }
+
 
 .footer__column_content_social {
   margin: 0;
