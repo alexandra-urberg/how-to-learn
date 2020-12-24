@@ -1,4 +1,4 @@
-.page {
+ .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
   /* поэтому выше установлена минимальная ширина страницы */
@@ -163,7 +163,7 @@
 
 .table {
   display: flex;
-  flex-flow: row wrap;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin-left: auto;
   margin-right: auto;
@@ -175,9 +175,6 @@
 .table__cell {
   padding: 0;
   margin-bottom: 0;
-}
-
-.table__cell_theme_white {
   width: 250px;
   list-style: none;
 }
@@ -185,9 +182,6 @@
 .table__heading {
   padding: 0;
   margin-bottom: 0;
-}
-
-.table__heading_theme_white { 
   margin-top: 60px;
   line-height: 1.15;
   font-size: 24px;
@@ -197,15 +191,13 @@
 .table__text {
   padding: 0;
   margin-bottom: 0;
-}
-
-.table__text_theme_white {
   margin-top: 20px;
   text-align: left;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
 }
+
 
 /** Feyman section **/
 
