@@ -1,12 +1,4 @@
 .section-title_theme_dark {
-    margin-bottom: 0;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-    text-align: center;
-    line-height: 1.15;
-    font-size: 60px;
-    font-weight: bold;
-    color: white;
-    z-index: 1;
+  color: white;
+  z-index: 1;
 }

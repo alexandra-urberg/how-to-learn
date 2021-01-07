@@ -8,5 +8,5 @@
 }
 
 .rotation {
-  mix-blend-mode:normal;
+  animation: rotation 20s linear infinite;
 }

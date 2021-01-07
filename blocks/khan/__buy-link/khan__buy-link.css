@@ -1,4 +1,5 @@
 .khan__buy-link {
+  align-self: flex-start;
   margin: 0 0 0 48px;
   padding: 0;
   text-decoration: none;

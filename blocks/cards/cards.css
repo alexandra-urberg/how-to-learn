@@ -1,6 +1,7 @@
 .cards {
  display: grid;
  grid-template-columns: repeat(3, 1fr);
+ grid-gap: 60px 100px;
  margin: 0 auto 0 auto;
  padding: 0;
  max-width: 920px;
