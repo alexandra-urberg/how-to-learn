@@ -1,0 +1,13 @@
+.footer__column-link {
+  text-align: left;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  text-decoration: none;
+  color: white;
+  transition: ease 1s;
+}
+
+.footer__column-link:hover {
+  opacity: 30%;
+}

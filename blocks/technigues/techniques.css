@@ -1,0 +1,7 @@
+.techniques { 
+ display: flex;
+ flex-flow: wrap;
+ padding: 0;
+ margin: 0 auto 0 auto;
+ max-width: 80%;
+}
