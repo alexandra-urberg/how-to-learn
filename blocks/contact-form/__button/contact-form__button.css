@@ -1,0 +1,14 @@
+.contact-form__button {
+  display: block;
+  width: 200px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.contact-form__button:hover {
+    opacity: 30%;
+  }
