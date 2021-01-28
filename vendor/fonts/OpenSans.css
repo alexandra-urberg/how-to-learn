@@ -5,7 +5,7 @@
 }
 
 @font-face {
-    src: url('OpenSans-Bold.ttf');
+    src: url('OpenSans-Bold.ttf') format('truetype');
     font-family: 'Open Sans';
     font-weight: bold;
 }
