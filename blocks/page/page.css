@@ -1,6 +1,8 @@
 .page {
-  min-width: 1100px;
+  display: block;
+  min-width: 320px;
   max-width: 1600px;
   margin: 0 auto;
   font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
 }

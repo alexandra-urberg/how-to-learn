@@ -7,3 +7,19 @@
     font-size: 18px;
     font-weight: normal;
 }
+
+@media screen and (min-width: 401px) and (max-widt: 600px) {
+    .table {
+        margin: 0 auto;
+        max-width: 370px;
+    }
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 400px) {
+    .table {
+        display: block;
+        margin: 0 auto;
+        max-width: 260px;
+    }
+}

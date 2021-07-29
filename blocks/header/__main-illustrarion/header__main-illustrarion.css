@@ -1,8 +1,26 @@
 .header__main-illustrarion {
    position: absolute;
-   height: 608px;
-   width: 765px;
+   height: 79.1%;
+   width: 48%;
    right: 0;
    bottom: 0;
    z-index: 1;
-  }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1100px) {
+   .header__main-illustrarion {
+     height: 70%;
+   }
+}
+
+@media screen and (min-width: 401px) and (max-width: 900px) {
+   .header__main-illustrarion {
+     height: 60%;
+   }
+}
+
+@media screen and (max-width: 400px) {
+   .header__main-illustrarion {
+     height: 50%;
+   }
+}

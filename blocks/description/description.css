@@ -1,7 +1,16 @@
 .description {
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding-top: 100px;
-    padding-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+@media screen and (max-width: 560px) {
+  .description {
+    box-sizing: border-box;
+    max-width: 80%;
+    margin: 0 auto;
   }
+  
+}

@@ -1,11 +1,40 @@
 .header__title {
-    justify-content: right;
-    align-self: center;
-    position: relative;
-    margin: 0;
-    margin-left: 64px;
-    width: 703px;
-    font-size: 102px;
-    line-height: 96px;
-    z-index: 3;
+  justify-content: right;
+  align-self: center;
+  position: relative;
+  margin-left: 64px;
+  font-size: 7.2rem;
+  width: 43.9%;
+  line-height: 96px;
+  z-index: 3;
+}
+
+@media screen and (min-width: 601px) and (max-width: 800px) {
+  .header__title {
+    font-size: 4.2rem;
+    width: 50%;
+    line-height: 1em;
+    padding: 0;
   }
+}
+
+@media screen and (min-width: 401px) and (max-width: 600px) {
+  .header__title {
+    font-size: 3rem;
+    width: 60%;
+    margin-left: 0.8em;
+    line-height: 1em;
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  .header__title {
+    font-size: 2.6rem;
+    width: 60%;
+    margin-left: 1em;
+    line-height: 1em;
+    padding: 0;
+  }
+}

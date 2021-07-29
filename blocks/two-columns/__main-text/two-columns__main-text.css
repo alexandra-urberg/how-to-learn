@@ -2,3 +2,12 @@
     min-width: 784px;
     max-width: 80%;
 }
+
+@media screen and (max-width: 1200px) {
+    .two-columns__main-text {
+        max-width: 80%;
+        box-sizing: border-box;
+        min-width: 70%;
+    }
+    
+}

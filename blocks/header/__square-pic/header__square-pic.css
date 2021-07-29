@@ -7,3 +7,53 @@
   background-color: #2f80ed;
   mix-blend-mode:normal;
 }
+
+@media screen and (min-width: 901px) and (max-width: 1400px) {
+  .header__square-pic {
+    height: 60vh;
+    width: 60vh;
+  }
+}
+
+@media screen and (min-width: 821px) and (max-width: 900px) {
+  .header__square-pic {
+    height: 55vh;
+    width: 55vh;
+  }
+}
+
+@media screen and (min-width: 656px) and (max-width: 820px) {
+  .header__square-pic {
+    height: 45vh;
+    width: 45vh;
+  }
+}
+
+@media screen and (min-width: 580px) and (max-width: 655px) {
+  .header__square-pic {
+    height: 40vh;
+    width: 40vh;
+  }
+}
+
+@media screen and (min-width: 536px) and (max-width: 579px) {
+  .header__square-pic {
+    height: 35vh;
+    width: 35vh;
+  }
+}
+
+@media screen and (min-width: 414px) and (max-width: 535px) {
+  .header__square-pic {
+    height: 30vh;
+    width: 30vh;
+  }
+}
+
+@media screen and (max-width: 413px) {
+  .header__square-pic {
+    height: 25vh;
+    width: 25vh;
+  }
+}
+
