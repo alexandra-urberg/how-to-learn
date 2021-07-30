@@ -6,3 +6,11 @@
     font-weight: normal;
     z-index: 1;
 }
+
+
+@media screen and (max-width: 869px) {
+    .feynman__subtitle {
+        padding-top: calc((100vw - 320px)/(1280 - 320) * (70 - 20) + 15px);
+        font-size: calc((100vw - 320px)/(1280 - 320) * (36 - 20) + 25px);
+    }
+}

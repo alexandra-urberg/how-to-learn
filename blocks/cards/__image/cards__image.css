@@ -5,3 +5,10 @@
     width: 160px;
     border-radius: 50%;
 }
+
+@media screen and (max-width: 690px) {
+    .cards__image {
+        margin:  30px auto 30px auto;
+   
+    }
+}

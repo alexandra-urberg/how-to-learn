@@ -9,3 +9,10 @@
     text-decoration: none;
     color: white;
 }
+
+@media screen and (max-width: 1011px) {
+    .footer__column-heading {
+        font-size: calc((100vw - 320px)/(1280 - 320) * (18 - 13) + 10px);
+        line-height: calc((100vw - 320px)/(1280 - 320) * (30 - 20) + 15px);
+    }   
+}

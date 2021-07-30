@@ -13,3 +13,12 @@
 .feynman__link:hover {
   opacity: 30%;
 }
+
+
+@media screen and (max-width: 1087px) {
+  .feynman__link {
+    z-index: 2;
+    top: 35%;
+    font-size: calc((100vw - 320px)/(1280 - 320) * (36 - 20) + 25px);
+  }
+}

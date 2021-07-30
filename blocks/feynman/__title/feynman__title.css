@@ -8,3 +8,13 @@
     font-weight: bold;
     z-index: 1;
 }
+
+@media screen and (max-width: 900px) {
+    .feynman__title {
+        max-width: 85%;
+        font-size: calc((100vw - 320px)/(1280 - 320) * (120 - 56) + 45px);
+        margin: 0 auto;
+
+    }
+    
+}

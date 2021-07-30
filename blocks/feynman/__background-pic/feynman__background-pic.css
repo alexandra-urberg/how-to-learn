@@ -5,3 +5,10 @@
     left: 0;
     bottom: 0;
 }
+
+@media screen and (max-width: 1087px) {
+    .feynman__background-pic {
+        max-width: 100%;
+        height: calc((100vw - 320px)/(1280 - 320) * (637 - 337) + 400px);
+    }
+}

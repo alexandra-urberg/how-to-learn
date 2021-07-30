@@ -4,8 +4,25 @@
     border: none;
     width: 513px;
     height: 316px;
+    
 }
 
 .video__iframe:first-child {
     margin-right: 20px;
+}
+@media screen and (max-width: 1051px) {
+    .video__iframe {
+      max-width: 45%;
+      margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .video__iframe {
+      max-width: 100%;
+      margin: 0 auto;
+    }
+    .video__iframe:first-child {
+        margin: 20px 0;
+    }
 }

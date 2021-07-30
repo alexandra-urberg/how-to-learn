@@ -6,10 +6,10 @@
     list-style: none;
 }
 
-@media screen and (min-width: 401px) and (max-widt: 600px) {
+@media screen and (min-width: 401px) and (max-width: 600px) {
     .table__cell {
         margin: 0 auto;
-        max-width: 400px;
+        max-width: 80%;
         padding-top: 1.2rem;
     }
 
@@ -19,7 +19,7 @@
     .table__cell {
         display: block;
         margin: 0 auto;
-        max-width: 260px;
+        max-width: 80%;
         padding-top: 1.5rem;
     }
 }

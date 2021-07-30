@@ -1,12 +1,21 @@
 .resources__logo {
-    margin: 0;
-    padding: 0;
-    width: 270px;
-    height: 38px;
-    transition: ease 1s;
+  margin: 0 auto;
+  padding: 0;
+  width: 270px;
+  height: 38px;
+  transition: ease 1s;
 }
 
 .resources__logo:hover {
   opacity: 30%;
 }
+
+@media screen and  (max-width: 649px) {
+  .resources__logo {
+    width: calc((100vw - 320px)/(1280 - 320) * (270 - 200) + 200px);
+    height: calc((100vw - 320px)/(1280 - 320) * (38 - 20) + 40px);
+    margin: 0 auto;
+  }
+}
+
   
