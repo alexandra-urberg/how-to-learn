@@ -1,7 +1,13 @@
 .footer__columns {
     display: flex;
-    justify-content: space-between;
     padding-top: 0;
     width: 90%;
     margin: 0 auto;
+}
+
+@media screen and (max-width: 510px) {
+    .footer__columns {
+        flex-direction: column;
+        text-align: center;
+    }   
 }

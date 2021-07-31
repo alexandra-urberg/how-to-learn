@@ -6,3 +6,12 @@
     font-size: 24px;
     font-weight: normal;
 }
+
+@media screen and (max-width: 815px) {
+    .khan__quote {
+        max-width: 80%;
+        font-size: calc((100vw - 320px)/(1280 - 320) * (24 - 16) + 20px);
+        text-align: center;
+        margin: 50px auto 36px auto;
+    }   
+}

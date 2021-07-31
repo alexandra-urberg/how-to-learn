@@ -11,3 +11,10 @@
     }
     
 }
+
+
+@media screen and (max-width: 560px) {
+    .two-columns__main-text {
+      margin: 0 auto;
+    }
+}

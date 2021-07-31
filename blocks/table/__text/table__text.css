@@ -8,3 +8,8 @@
     font-weight: normal;
 }
 
+@media screen and (max-width: 560px) {
+    .table__text {
+      text-align: center;
+    }
+}

@@ -6,3 +6,9 @@
     font-size: 18px;
     font-weight: normal;
 }
+
+@media screen and (max-width: 560px) {
+    .two-columns__brief {
+      margin: 0 auto;
+    }
+}

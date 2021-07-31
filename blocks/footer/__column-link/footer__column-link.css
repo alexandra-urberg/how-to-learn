@@ -11,3 +11,10 @@
 .footer__column-link:hover {
   opacity: 30%;
 }
+
+@media screen and (min-width: 511px) and (max-width: 1085px) {
+  .footer__column-link {
+    font-size: calc((100vw - 320px)/(1280 - 320) * (18 - 15) + 12px);
+    line-height: calc((100vw - 320px)/(1280 - 320) * (30 - 15) + 13px);
+  }   
+}

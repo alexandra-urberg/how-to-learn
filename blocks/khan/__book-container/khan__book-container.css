@@ -4,3 +4,9 @@
     margin: 0;
     padding: 68px 0 0 0;
 }
+
+@media screen and (max-width: 445px) {
+    .khan__book-container {
+        display: block;
+    }  
+}

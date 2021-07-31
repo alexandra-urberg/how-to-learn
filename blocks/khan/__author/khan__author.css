@@ -5,3 +5,10 @@
     font-size: 30px;
     font-weight: normal;
 }
+
+@media screen and (max-width: 560px) {
+    .khan__author {
+      margin: 0 auto 10px auto;
+      text-align: center;
+    }
+}

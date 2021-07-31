@@ -1,6 +1,8 @@
 .footer {
     display: flex;
+    flex-direction: column;
     box-sizing: border-box;
+    justify-content: center;
     min-height: 350px;
     padding-top: 60px;
     padding-bottom: 40px;

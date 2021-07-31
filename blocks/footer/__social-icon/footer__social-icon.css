@@ -3,3 +3,10 @@
     height: 16px;
     padding-right: 10px;
 }
+
+@media screen and (min-width: 511px) and (max-width: 1011px) {
+    .footer__column-icon {
+        width: 8px;
+        height: 8px;
+    }   
+  }

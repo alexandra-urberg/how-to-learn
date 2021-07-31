@@ -5,3 +5,16 @@
     align-items: flex-start;
     flex-basis: 711px;
 }
+
+@media screen and (min-width: 511px) and (max-width: 1051px) {
+    .footer__column_content_copyright {
+        flex-basis: calc((100vw - 320px)/(1280 - 320) * (711 - 200) + 100px);
+    }   
+}
+
+@media screen and (max-width: 510px) {
+    .footer__column_content_copyright {
+        flex-basis: auto;
+        margin-bottom: 30px;
+    }   
+}
